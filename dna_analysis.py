@@ -110,9 +110,9 @@ gc_content = gc_count / total_count
 print('g-count:', g_count,'c-count:', c_count)
 print('GC-content:', gc_content)
 
-if gc_content > 55%:
+if gc_content > 55/100 :
     print('high')
-elif gc_content < 37%:
+elif gc_content < 37/100 :
     print('low')
 else:
     print('moderate')
